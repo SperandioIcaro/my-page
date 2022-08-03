@@ -8,7 +8,7 @@ export function SocialBar() {
                     <TwitterLogo className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
-                href="#" target='_blank'>
+                href="mailto:icaro.sperandio@gmail.com?subject=Contato front-end" target='_blank'>
                     <EnvelopeOpen className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
