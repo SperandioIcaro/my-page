@@ -2,12 +2,12 @@ import { ArrowSquareOut } from "phosphor-react";
 
 export function About() {
     return (
-        <div className="flex flex-col w-9/12 h-full mt-20 mb-10 ml-48 self-center justify-center p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200">
-            <div >
+        <div className="md:flex 2xl:flex flex-col 2xl:w-9/12 w-10/12 h-full 2xl:mt-20 mt-24 mb-10 2xl:ml-48 ml-12 self-center justify-center p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200">
+            <div className="flex flex-col m-2">
                 <h1 className="text-center font-sans text-cyan-800 text-4xl">
                     Um pouco sobre mim!
                 </h1>
-                <span className="flex text-center ml-96 font-Press text-cyan-900 -mt-2 mb-4 text-lg underline">
+                <span className="flex text-center 2xl:ml-96 font-Press text-cyan-900 -mt-2 mb-4 text-lg underline">
                     pode ser que seja interessante.
                 </span>
             </div>
@@ -16,12 +16,12 @@ export function About() {
                 <p className="flex text-justify font-inco text-base text-black">
                     Olá, meu nome é Ícaro Sperandio, tenho 25 anos e sou estudante de analise e desenvolvimento de sistemas e design de games. Dito isso darei um breve resumo sobre mim!
                     <br /><br />
-                    Tudo começou pela arte, em minha família por parte de mãe todos possuem um talento especifico para a arte, alguns pintam quadros, outros são musicistas e alguns só desenham, eu peguei um pouco de cada um, mas o que eu mais gostava de fazer era desenhar, sempre desenhava um personagem de algum filme o qual eu gostava, de animações, e também desde sempre eu amei animações desde os desenhos animados americanos até os animes japoneses.<br />   Eu sempre senti isso estimular minha imaginação a ponto dela pular para fora da minha mente, seja em forma de desenhos ou ganhando vida em minha mente, isso sempre me ajudou nas aulas de artes na escola, e com o tempo eu fiz um curso de design gráfico e eu percebi que essa mesma facilidade que eu tinha nas aulas também me ajudou na criação de panfletos, cardápios e etc.<br />    Mas, vi que focar em apenas isso não era para mim, o tempo passou eu acabei perdendo o gosto por desenhar, fiquei confuso em que profissão seguir, ate que eu conheci algumas pessoas da área de programação que me apresentou a profissão e peguei um certo interesse, comecei a estudar o back-end, depois de alguns dias estudando recebi um anuncio referente a um curso de programação de jogos, fiquei extremamente animado, já que juntava a profissão que estava me conquistando e jogos o qual é algo que eu sempre gostei, iniciei o curso o mais rápido possível.<br />     Durante o curso conheci algumas pessoas extremamente talentosas para a arte digital a qual inclui a própria professora a qual graças a ela, dando dicas, estimulando a prática e até mesmo alguns exercícios práticos, o meu gosto por desenhar voltou com tudo e evoluiu para o desenho digital, e nesse momento de felicidade que me veio a luz, que eu poderia unir a minha arte e a programação com uma maior facilidade no front-end.<br />    A partir dai mudei meu cronograma de estudos, participei de um projeto voluntario, e graças a essas experiências hoje eu me sinto pronto para ingressar profissionalmente na área de desenvolvimento front-end. Sigo estudando diariamente para me manter atualizado e ganhar ainda mais experiência!
+                    Tudo começou pela arte, em minha família por parte de mãe todos possuem um talento especifico para a arte, alguns pintam quadros, outros são musicistas e alguns só desenham, eu peguei um pouco de cada um, mas o que eu mais gostava de fazer era desenhar, sempre desenhava um personagem de algum filme o qual eu gostava, de animações, e também desde sempre eu amei animações desde os desenhos animados americanos até os animes japoneses.<br /><br />   Eu sempre senti isso estimular minha imaginação a ponto dela pular para fora da minha mente, seja em forma de desenhos ou ganhando vida em minha mente, isso sempre me ajudou nas aulas de artes na escola, e com o tempo eu fiz um curso de design gráfico e eu percebi que essa mesma facilidade que eu tinha nas aulas também me ajudou na criação de panfletos, cardápios e etc.<br /><br />    Mas, vi que focar em apenas isso não era para mim, o tempo passou eu acabei perdendo o gosto por desenhar, fiquei confuso em que profissão seguir, ate que eu conheci algumas pessoas da área de programação que me apresentou a profissão e peguei um certo interesse, comecei a estudar o back-end, depois de alguns dias estudando recebi um anuncio referente a um curso de programação de jogos, fiquei extremamente animado, já que juntava a profissão que estava me conquistando e jogos o qual é algo que eu sempre gostei, iniciei o curso o mais rápido possível.<br /><br />     Durante o curso conheci algumas pessoas extremamente talentosas para a arte digital a qual inclui a própria professora a qual graças a ela, dando dicas, estimulando a prática e até mesmo alguns exercícios práticos, o meu gosto por desenhar voltou com tudo e evoluiu para o desenho digital, e nesse momento de felicidade que me veio a luz, que eu poderia unir a minha arte e a programação com uma maior facilidade no front-end.<br /><br />    A partir dai mudei meu cronograma de estudos, participei de um projeto voluntario, e graças a essas experiências hoje eu me sinto pronto para ingressar profissionalmente na área de desenvolvimento front-end. Sigo estudando diariamente para me manter atualizado e ganhar ainda mais experiência!
                 </p>
             </div>
 
-            <div className="flex flex-row mt-16 justify-between">
-                <div className="flex flex-col m-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 w-1/3 h-80 p-3">
+            <div className="2xl:flex md:flex 2xl:flex-row md:flex-col mt-16 justify-between">
+                <div className="2xl:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 2xl:w-1/3 md:w-3/4 h-80 p-3">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Formação
                     </h3>                    
@@ -54,7 +54,7 @@ export function About() {
                     
                 </div>
 
-                <div className="flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 w-1/3 h-80 p-3">
+                <div className="2xl:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 2xl:w-1/3 md:w-3/4 h-80 p-3">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Certificados
                     </h3>
@@ -94,7 +94,7 @@ export function About() {
                     </div>
                 </div>
 
-                <div className="flex flex-col m-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 w-1/3 h-80 p-3">
+                <div className="2xl:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 2xl:w-1/3 md:w-3/4 h-80 p-3">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Idiomas
                     </h3>                    
