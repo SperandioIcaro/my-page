@@ -3,8 +3,8 @@ import { ArrowSquareOut } from "phosphor-react";
 export function About() {
     return (
         <div className="
-            flex flex-col lg:w-9/12 h-full lg:mt-20 lg:mb-10 lg:ml-48 self-center justify-center lg:p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200
-            w-10/12 mt-24 ml-12 p-5 mb-48
+            flex flex-col lg:w-10/12 h-full lg:mt-20 lg:mb-10 lg:ml-32 self-center justify-center lg:p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200
+            w-10/12 mt-24 ml-8 p-5 mb-48
         ">
             <div className="
                 flex flex-col lg:m-2
@@ -36,7 +36,10 @@ export function About() {
                 flex lg:flex-row justify-between
                 flex-col mt-6
                 ">
-                <div className="lg:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 md:w-3/4 h-80 p-3">
+                <div className="
+                    flex flex-col lg:mt-4 lg:m-6 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 
+                    w-11/12 h-auto p-3 m-3
+                    ">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Formação
                     </h3>                    
@@ -69,7 +72,10 @@ export function About() {
                     
                 </div>
 
-                <div className="lg:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 md:w-3/4 h-80 p-3">
+                <div className="
+                    flex flex-col lg:mt-4 lg:m-6 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 
+                    w-11/12 h-auto p-3 m-3
+                    ">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Certificados
                     </h3>
@@ -109,7 +115,10 @@ export function About() {
                     </div>
                 </div>
 
-                <div className="lg:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 md:w-3/4 h-80 p-3">
+                <div className="
+                    flex flex-col lg:mt-4 lg:m-6 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 
+                    w-11/12 h-auto p-3 m-3
+                    ">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Idiomas
                     </h3>                    

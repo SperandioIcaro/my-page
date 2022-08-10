@@ -13,10 +13,16 @@ export function Header() {
                 ml-1 mt-1 mr-0
                 ">
                 <Link to={`/`} >
-                <a className="
-                    lg:flex text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse hidden
-                    ">
+                    <a className="
+                        lg:flex text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse hidden
+                        ">
                         <Rocket className="inline mb-2 hover:animate-spin" size={32} /> Ícaro Sperandio
+                    </a>
+                    <a className="
+                        text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse lg:hidden
+                        flex
+                        ">
+                        <Rocket className="inline -ml-20 mb-2 hover:animate-spin" size={32} />
                     </a>
                 </Link>
             </div>

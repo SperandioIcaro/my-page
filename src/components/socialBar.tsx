@@ -3,8 +3,8 @@ import { EnvelopeOpen, GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo } fr
 export function SocialBar() {
     return (
         <div className="
-                        fixed flex flex-col w-auto h-auto lg:ml-8 lg:top-80 
-                        ml-1 bottom-44
+                        lg:fixed flex lg:flex-col w-auto h-auto lg:ml-8 lg:top-80 
+                        relative flex-row ml-20 bottom-32
                         ">
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
                 href="https://twitter.com/SperandioIcaro" target='_blank'>
