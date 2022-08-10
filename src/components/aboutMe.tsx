@@ -2,17 +2,29 @@ import { ArrowSquareOut } from "phosphor-react";
 
 export function About() {
     return (
-        <div className="md:flex 2xl:flex flex-col 2xl:w-9/12 w-10/12 h-full 2xl:mt-20 mt-24 mb-10 2xl:ml-48 ml-12 self-center justify-center p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200">
-            <div className="flex flex-col m-2">
+        <div className="
+            flex flex-col lg:w-9/12 h-full lg:mt-20 lg:mb-10 lg:ml-48 self-center justify-center lg:p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200
+            w-10/12 mt-24 ml-12 p-5 mb-48
+        ">
+            <div className="
+                flex flex-col lg:m-2
+                m-1
+                ">
                 <h1 className="text-center font-sans text-cyan-800 text-4xl">
                     Um pouco sobre mim!
                 </h1>
-                <span className="flex text-center 2xl:ml-96 font-Press text-cyan-900 -mt-2 mb-4 text-lg underline">
+                <span className="
+                    flex text-center lg:ml-96 font-Press text-cyan-900 lg:-mt-2 lg:mb-4 text-lg underline
+                    ml-24
+                    ">
                     pode ser que seja interessante.
                 </span>
             </div>
 
-            <div className="flex mt-8 p-1">
+            <div className="
+                flex lg:mt-8 lg:p-1
+                mt-2
+                ">
                 <p className="flex text-justify font-inco text-base text-black">
                     Olá, meu nome é Ícaro Sperandio, tenho 25 anos e sou estudante de analise e desenvolvimento de sistemas e design de games. Dito isso darei um breve resumo sobre mim!
                     <br /><br />
@@ -20,8 +32,11 @@ export function About() {
                 </p>
             </div>
 
-            <div className="2xl:flex md:flex 2xl:flex-row md:flex-col mt-16 justify-between">
-                <div className="2xl:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 2xl:w-1/3 md:w-3/4 h-80 p-3">
+            <div className="
+                flex lg:flex-row justify-between
+                flex-col mt-6
+                ">
+                <div className="lg:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 md:w-3/4 h-80 p-3">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Formação
                     </h3>                    
@@ -54,7 +69,7 @@ export function About() {
                     
                 </div>
 
-                <div className="2xl:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 2xl:w-1/3 md:w-3/4 h-80 p-3">
+                <div className="lg:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 md:w-3/4 h-80 p-3">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Certificados
                     </h3>
@@ -94,7 +109,7 @@ export function About() {
                     </div>
                 </div>
 
-                <div className="2xl:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 2xl:w-1/3 md:w-3/4 h-80 p-3">
+                <div className="lg:flex md:flex flex-col mt-4 border-solid border-black border rounded-xl shadow-lg bg-zinc-200 lg:w-1/3 md:w-3/4 h-80 p-3">
                     <h3 className="flex font-mono text-xl text-cyan-800">
                         Idiomas
                     </h3>                    

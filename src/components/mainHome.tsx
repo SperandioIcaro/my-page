@@ -2,20 +2,31 @@ import { LightbulbFilament, WhatsappLogo } from "phosphor-react";
 
 export function Main() {
     return (
-        <div className="flex-column w-auto h-full mt-24 mb-6 ml-40 bg-transparent">
+        <div className="
+            lg:flex-column w-auto lg:h-full lg:mt-24 lg:mb-6 lg:ml-40 bg-transparent
+            flex-column h-full mt-20 mb-6 ml-1"
+            >
             <div className="w-auto h-full flex-col m-2">
 
-                <div className="flex w-40 h-12 relative rounded-tr-full rounded-tl-full rounded-bl-full rounded-br-none items-center bg-gradient-to-tl from-blue-700 via-blue-500 to-cyan-300 justify-center shadow-xl" >
+                <div className="
+                lg:flex lg:w-40 lg:h-12 lg:m-0 relative rounded-tr-full rounded-tl-full rounded-bl-full rounded-br-none items-center bg-gradient-to-tl from-blue-700 via-blue-500 to-cyan-300 justify-center shadow-xl
+                flex w-28 h-10 ml-4 -mb-2
+                ">
                     <p className="font-sans font-bold text-3xl text-white text-center">
                         Olá! <LightbulbFilament className="inline" size={32} color="#fbff00" />
                     </p>
                 </div>
 
-                <h3 className="font-Press w-48 leading-10 text-4xl text-justify m-1 text-black">
+                <h3 className="
+                    font-Press w-48 leading-10 text-4xl text-justify lg:m-1 text-black
+                    m-4
+                    ">
                     Meu nome é Ícaro!
                 </h3>
 
-                <p className="font-inco text-xl text-justify m-1 text-black w-96">
+                <p className="font-inco text-xl text-justify lg:m-1 text-black lg:w-96
+                    w-80 m-4 -mb-4
+                    ">
                 Sou um desenvolvedor front-end e estudante de análise e desenvolvimento de sistemas e design de games!
                 </p>
 
