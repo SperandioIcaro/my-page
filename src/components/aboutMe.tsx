@@ -4,7 +4,7 @@ export function About() {
     return (
         <div className="
             flex flex-col lg:w-10/12 h-full lg:mt-20 lg:mb-10 lg:ml-32 self-center justify-center lg:p-10 cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-200
-            w-10/12 mt-24 ml-8 p-5 mb-48
+            w-10/12 mt-16 ml-7 p-5 mb-20
         ">
             <div className="
                 flex flex-col lg:m-2

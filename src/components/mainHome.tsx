@@ -4,12 +4,12 @@ export function Main() {
     return (
         <div className="
             lg:flex-column w-auto lg:h-full lg:mt-24 lg:mb-6 lg:ml-40 bg-transparent
-            flex-column h-full mt-20 mb-6 ml-1"
+            flex-column h-auto mt-20 mb-2 ml-1"
             >
             <div className="w-auto h-full flex-col m-2">
 
                 <div className="
-                lg:flex lg:w-40 lg:h-12 lg:m-0 relative rounded-tr-full rounded-tl-full rounded-bl-full rounded-br-none items-center bg-gradient-to-tl from-blue-700 via-blue-500 to-cyan-300 justify-center shadow-xl
+                lg:flex lg:w-32 lg:h-12 lg:m-0 relative rounded-tr-full rounded-tl-full rounded-bl-full rounded-br-none items-center bg-gradient-to-tl from-blue-700 via-blue-500 to-cyan-300 justify-center shadow-xl
                 flex w-28 h-10 ml-4 -mb-2
                 ">
                     <p className="font-sans font-bold text-3xl text-white text-center">

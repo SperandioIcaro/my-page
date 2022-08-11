@@ -22,7 +22,7 @@ export function Header() {
                         text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse lg:hidden
                         flex
                         ">
-                        <Rocket className="inline -ml-20 mb-2 hover:animate-spin" size={32} />
+                        <Rocket className="inline -ml-14 mb-2 hover:animate-spin" size={32} />
                     </a>
                 </Link>
             </div>

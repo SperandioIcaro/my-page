@@ -4,7 +4,7 @@ export function SocialBar() {
     return (
         <div className="
                         lg:fixed flex lg:flex-col w-auto h-auto lg:ml-8 lg:top-80 
-                        relative flex-row ml-20 bottom-32
+                        relative flex-row ml-16 bottom-10
                         ">
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
                 href="https://twitter.com/SperandioIcaro" target='_blank'>
