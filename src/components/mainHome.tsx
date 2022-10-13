@@ -1,12 +1,13 @@
 import { LightbulbFilament, WhatsappLogo } from "phosphor-react";
+import Astrounaut from "../assets/astronautCachAPizza.jpg"
 
 export function Main() {
     return (
         <div className="
-            lg:flex-column w-auto lg:h-full lg:mt-24 lg:mb-6 lg:ml-40 bg-transparent
-            flex-column h-auto mt-20 mb-2 ml-1"
+            md:flex-column w-full bg-transparent
+            flex flex-row h-auto mt-36 justify-around items-center p-10"
             >
-            <div className="w-auto h-full flex-col m-2">
+            <div className="flex w-auto h-full flex-col m-12">
 
                 <div className="
                 lg:flex lg:w-32 lg:h-12 lg:m-0 relative rounded-tr-full rounded-tl-full rounded-bl-full rounded-br-none items-center bg-gradient-to-tl from-blue-700 via-blue-500 to-cyan-300 justify-center shadow-xl
@@ -49,6 +50,9 @@ export function Main() {
                     </button>
 
                 </div>
+            </div>
+            <div>
+                <img className="flex w-96 h-96 rounded-full shadow-xl m-12 rotate-45" src={Astrounaut} alt="astronauta" />
             </div>
 
         </div>
