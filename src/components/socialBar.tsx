@@ -15,7 +15,7 @@ export function SocialBar() {
                     <EnvelopeOpen className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
-                href="https://github.com/K0slov" target='_blank'>
+                href="https://github.com/SperandioIcaro" target='_blank'>
                     <GithubLogo className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
