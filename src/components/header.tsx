@@ -4,32 +4,39 @@ import { Link } from "react-router-dom"
 export function Header() {
     return (
         <div className="
-            flex flex-row fixed w-full h-12 bg-zinc-200 items-center top-0 lg:justify-between container
-            justify-center
+            flex flex-row bg-zinc-200 items-center top-0 justify-between w-full
+            xl:h-16 xl:px-16 xl:w-full
+            md:h-14 md:px-12
+            
+            shadow-lg
             ">
             
             <div className="
-                flex flex-row w-auto h-auto lg:ml-12
-                ml-1 mt-1 mr-0
+                flex flex-row w-48 h-auto items-center justify-evenly
                 ">
-                <Link to={`/`} >
+                <Link to={`/`} className="flex" >
+                    <Rocket className="
+                                        flex hover:animate-spin -ml-16
+                                        xl:mx-2" 
+                            size={32} />
                     <a className="
-                        lg:flex text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse hidden
-                        ">
-                        <Rocket className="inline mb-2 hover:animate-spin" size={32} /> Ícaro Sperandio
+                        hidden
+                        xl:flex xl:text-justify xl:cursor-pointer xl:font-sans xl:text-lg xl:mt-1 xl:text-black xl:hover:text-black/80 xl:hover:animate-pulse
+                        "> Ícaro Sperandio
                     </a>
-                    <a className="
-                        text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse lg:hidden
-                        flex
+                    {/* <a className="
+                        flex text-justify cursor-pointer font-sans text-lg text-black hover:text-black/80 hover:animate-pulse 
+                        xl:hidden
+                        
                         ">
                         <Rocket className="inline -ml-14 mb-2 hover:animate-spin" size={32} />
-                    </a>
+                    </a> */}
                 </Link>
             </div>
 
             <div className="
-                relative flex flex-row w-auto h-auto lg:mt-1 items-center content-center justify-center lg:mr-10
-                mt-0 
+                flex w-full -ml-24
+                xl:relative xl:flex xl:flex-row xl:w-auto xl:h-auto xl:items-center xl:content-center xl:justify-center
                 ">
                 <button className="relative flex box-content w-8 h-0 border-none m-5 items-center content-center justify-center p-1 cursor-pointer">
                     <Link to={`/sobre`} >
