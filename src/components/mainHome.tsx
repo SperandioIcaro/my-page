@@ -4,7 +4,7 @@ import Astrounaut from "../assets/astronautCachAPizza.jpg"
 export function Main() {
     return (
             <div className="
-                    flex flex-col-reverse w-full max-h-min items-center left-0
+                    flex flex-col-reverse w-full max-h-min items-center
                     xl:flex-row xl:mt-20 xl:justify-around xl:p-6 xl:-ml-4
                     md:flex-row md:justify-evenly md:mt-16 
                     ">
