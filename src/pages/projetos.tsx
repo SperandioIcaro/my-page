@@ -17,7 +17,6 @@ export function Projetos() {
         axios.get('https://api.github.com/users/SperandioIcaro/repos')
             .then(({data}) => {
                 setData(data);
-                console.log(data)
             })
     }, [])
    
@@ -27,9 +26,9 @@ export function Projetos() {
             <span>
                 Você está ma pagina de Projetos!
             </span> 
-            <ul className="">
+            <ul >
                 {data.map(card => 
-                <li className='' key={card.id}>
+                <li key={card.id}>
                     <CardProjectApi id={card.id} />
                 </li>
             )}
