@@ -1,5 +1,5 @@
 import { LightbulbFilament, WhatsappLogo } from "phosphor-react";
-import Astrounaut from "../assets/astronautCachAPizza.jpg"
+import Astrounaut from "../assets/astronautCachAPizza.webp"
 
 export function Main() {
     return (

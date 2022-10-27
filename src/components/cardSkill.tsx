@@ -1,5 +1,4 @@
-import { CaretRight } from 'phosphor-react'
-import ts from '../assets/ts.png'
+import ts from '../assets/ts.webp'
 
 export function CardSkill() {
     return(
