@@ -8,7 +8,7 @@ interface Props {
 export default function BoxText(props: Props) {
     return (
         <div className="
-            flex flex-col h-full self-center justify-center cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-100 w-11/12 mt-12 ml-4 p-5 mb-12
+            flex flex-col h-full self-center justify-center cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-100 w-11/12 mt-12 ml-1 p-5 mb-12
             xl:mb-10 xl:ml-28 xl:p-10 xl:mt-16
             md:mb-10 md:ml-16 md:p-5 md:mt-14
         ">
