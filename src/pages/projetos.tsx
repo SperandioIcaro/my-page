@@ -1,4 +1,5 @@
-import CardProjectApi from '../components/CardProjectApi'
+import { CardProjectApi } from "../components/CardProjectApi";
+
 
 export function Projetos() {
    
