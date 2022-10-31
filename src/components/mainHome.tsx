@@ -5,8 +5,9 @@ export function Main() {
     return (
             <div className="
                     flex flex-col-reverse w-full max-h-min items-center
-                    xl:flex-row xl:mt-20 xl:justify-around xl:p-6 xl:-ml-4
-                    md:flex-row md:justify-evenly md:mt-16 
+                    xl:flex-row xl:mt-14 xl:justify-around xl:p-6 xl:-ml-4
+                    lg:flex-row lg:mt-12 lg:justify-around lg:p-6 lg:-ml-4
+                    md:flex-row md:justify-around md:mt-10 
                     ">
                 <div className="
                         flex flex-col w-11/12 -mt-10 z-10 mr-2
@@ -40,11 +41,16 @@ export function Main() {
                     Sou um desenvolvedor front-end e estudante de análise e desenvolvimento de sistemas e design de games!
                     </p>
 
-                    <div className="w-auto h-auto flex flex-row content-between items-center right-0
-                    md:mr-0
-                    ">
+                    <div className="
+                            max-w-min h-auto flex flex-row content-between items-center left-0
+                            xl:mr-0 xl:ml-4 xl:min-w-max
+                            lg:mr-0 lg:ml-4 lg:min-w-max
+                            md:mr-0 md:ml-4 md:min-w-max
+                        ">
 
-                        <button className="flex w-44 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl  shadow-gray-700/50 bg-gradient-to-br from-blue-700 to-blue-500 mx-2 hover:animate-pulse" >
+                        <button className="
+                                    flex w-44 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl  shadow-gray-700/50 bg-gradient-to-br from-blue-700 to-blue-500 mx-2 hover:animate-pulse
+                                " >
                             <a href="https://cdn2.hubspot.net/hubfs/22201216/CV%20Icaro%20Sperandio.pdf" download="CV Icaro Sperandio" target="_blank" rel="noreferrer">
                                 <p className="font-mono font-bold text-xl text-center text-slate-200 mt-5">
                                     Baixar CV
@@ -62,11 +68,16 @@ export function Main() {
 
                     </div>
                 </div>
-                <div>
+                <div className="flex center m-0
+                xl:right-4
+                lg:right-2
+                md:right-0
+                 ">
                     <img className="
-                            flex w-60 h-60 rounded-full shadow-xl mt-6 rotate-45 z-0
+                            flex w-60 h-60 rounded-full shadow-xl mt-4 rotate-45 z-0
                             xl:flex xl:w-[500px] xl:h-[500px] xl:m-12
-                            md:w-96 md:h-96 md:m-12 
+                            lg:flex lg:w-[400px] lg:h-[400px] lg:m-12
+                            md:w-72 md:h-72 
                             "
                         src={Astrounaut} alt="astronauta" />
                 </div>

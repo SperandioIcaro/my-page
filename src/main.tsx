@@ -8,3 +8,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <App />
   </React.StrictMode>
 )
+
+
+// sm = w-640 a w-767
+// md = w-768 a w-1279 (ajustado com lg)
+// xl = w-1280 a w-1919
+

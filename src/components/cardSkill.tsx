@@ -13,9 +13,9 @@ export function CardSkill(props: Props) {
             w-48 h-12 m-2
             ">
             <div className="
-                flex w-12 bg-slate-50 rounded-lg items-center justify-center p-1 flex-1 overflow-clip
+                flex w-12 bg-slate-50 rounded-lg items-center justify-center p-1 flex-1 overflow-clip shadow-xl
                 xl:w-24
-                md:w-24
+                md:w-24 md:h-24
                 ">
                 <img src={props.image} className="self-center h-auto w-24"/>
             </div>

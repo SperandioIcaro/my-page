@@ -18,13 +18,15 @@ import BoxSkill from "../lib/BoxSkill";
 export function MySkills() {
     return (
         <div className="
-            flex flex-col self-center justify-center cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-100 mt-20 w-11/12 h-auto ml-1 p-2 mb-0
+            flex flex-col self-center justify-center cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-100 mt-10 w-11/12 h-auto ml-4 p-2 mb-0
             xl:h-full xl:mt-20 xl:ml-28 xl:p-5 
-            md:mt-10 md:ml-16 md:p-2
+            lg:h-full lg:mt-20 lg:ml-16 lg:p-5
+            md:mt-10 md:ml-12 md:p-2
             ">
             <h1 className="
                 font-Press font-bold text-lg text-left
                 xl:text-center xl:text-4xl xl:my-2 
+                lg:text-center lg:text-4xl lg:my-2
                 md:text-center md:text-2xl md:my-2
                 ">
                 Minhas habilidades em:

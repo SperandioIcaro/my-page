@@ -4,22 +4,20 @@ import { Link } from "react-router-dom"
 export function Header() {
     return (
         <div className="
-            flex flex-row bg-zinc-200 items-center top-0 justify-between w-full
-            xl:h-16 xl:px-16 xl:w-full
-            md:h-14 md:px-12 
-            
-            shadow-lg
+                flex flex-row bg-zinc-200 items-center top-0 justify-between w-full shadow-lg
+                xl:h-16 xl:px-16 xl:w-full
+                md:h-14 md:px-12
             ">
             
             <div className="
-                flex flex-row w-48 h-auto items-center justify-evenly
+                    flex flex-row w-48 h-auto items-center justify-evenly
                 ">
                 <Link to={`/`} className="flex" >
                     <Rocket className="
-                                        flex hover:animate-spin -ml-16
-                                        xl:mx-2
-                                        md:mx-4
-                                        " 
+                                flex hover:animate-spin -ml-14
+                                xl:mx-2
+                                md:mx-4
+                                " 
                             size={32} />
                     <a className="
                         hidden
@@ -38,9 +36,9 @@ export function Header() {
             </div>
 
             <div className="
-                flex w-full -ml-24
-                xl:relative xl:flex xl:flex-row xl:w-auto xl:h-auto xl:items-center xl:content-center xl:justify-center
-                md:m-0 md:right-0 md:justify-end md:items-center md:content-center md:flex-row md:w-auto md:h-auto md:ml-0
+                    flex w-full -ml-24
+                    xl:relative xl:flex xl:flex-row xl:w-auto xl:h-auto xl:items-center xl:content-center xl:justify-center
+                    md:m-0 md:right-0 md:justify-end md:items-center md:content-center md:flex-row md:w-auto md:h-auto md:ml-0
                 ">
                 <button className="relative flex box-content w-8 h-0 border-none m-5 items-center content-center justify-center p-1 cursor-pointer">
                     <Link to={`/sobre`} >
