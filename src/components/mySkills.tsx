@@ -14,6 +14,7 @@ import tail from '../assets/tail.webp'
 import aws from '../assets/aws.webp'
 import HyGraphQL from '../assets/hygraph.svg'
 import BoxSkill from "../lib/BoxSkill";
+import Php from "../assets/php.png";
 
 export function MySkills() {
     return (
@@ -63,6 +64,8 @@ export function MySkills() {
                     <CardSkill title={"TypeScript"} description={"TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem"} image={ts} />
 
                     <CardSkill title={"JavaScript"} description={"JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma."} image={js} />
+
+                    <CardSkill title={"PHP"} description={"PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web."} image={Php} />
                 </>
             } />
 
