@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
+
+body { 
+  font-family: "Signika Negative", sans-serif; 
+  font-weight: 300;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.wrap {
+  position: relative;
+  height: 100vh;
+}
+
+.dot {
+  width: 25px;
+  height: 25px;
+  background-color: pink;
+  position: absolute;
+}
+
+.dot1 {
+  top: 10%;
+  left: 5%;
+}
+
+.dot2 {
+  top: 55%;
+  left: 20%;
+}
+
+.dot3 {
+  top: 6%;
+  left: 70%;
+}
+.dot4 {
+  top: 68%;
+  left: 49%;
+}
+.dot5 {
+  top: 18%;
+  left: 39%;
+}
+.dot6 {
+  top: 80%;
+  left: 86%;
+}

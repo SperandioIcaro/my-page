@@ -1,20 +1,20 @@
 import { CardSkill } from "./cardSkill";
 
-import ts from '../assets/ts.webp'
-import react from '../assets/react-logo.webp'
-import node from '../assets/nodejs.webp'
-import html from '../assets/html.webp'
-import css from '../assets/css.webp'
-import js from '../assets/js.webp'
-import c from '../assets/c.webp'
-import angular from '../assets/angular.webp'
-import java from '../assets/java.webp'
-import wp from '../assets/wp.webp'
-import tail from '../assets/tail.webp'
-import aws from '../assets/aws.webp'
-import HyGraphQL from '../assets/hygraph.svg'
+import ts from '../assets/logos/ts.webp'
+import react from '../assets/logos/react-logo.webp'
+import node from '../assets/logos/nodejs.webp'
+import html from '../assets/logos/html.webp'
+import css from '../assets/logos/css.webp'
+import js from '../assets/logos/js.webp'
+import c from '../assets/logos/c.webp'
+import angular from '../assets/logos/angular.webp'
+import java from '../assets/logos/java.webp'
+import wp from '../assets/logos/wp.webp'
+import tail from '../assets/logos/tail.webp'
+import aws from '../assets/logos/aws.webp'
+import HyGraphQL from '../assets/logos/hygraph.svg'
 import BoxSkill from "../lib/BoxSkill";
-import Php from "../assets/php.png";
+import Php from "../assets/logos/php.png";
 
 export function MySkills() {
     return (

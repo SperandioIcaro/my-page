@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  darkMode: ['class', '[data-mode="dark"]'], //false, 'class', 'media'
   theme: {
     extend: {
       fontFamily: { 
