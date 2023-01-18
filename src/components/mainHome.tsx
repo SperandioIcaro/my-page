@@ -16,14 +16,7 @@ export function Main() {
                     lg:flex-row lg:mt-12 lg:justify-around lg:p-6 lg:-ml-4
                     md:flex-row md:justify-around md:mt-10 
                     ">
-                                
-
-        {/* <button
-        onClick={darkMode}
-        className="flex top-4 right-4 z-50 p-2 rounded-full bg-gradient-to-br from-blue-700 to-blue-500 hover:animate-pulse dark:bg-gradient-to-br dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50"
-        >
-            clique aqui
-        </button> */}
+        
                 <div className="
                         flex flex-col w-11/12 -mt-10 z-10 mr-2
                         xl:w-auto xl:h-full xl:m-8
@@ -81,7 +74,7 @@ export function Main() {
                         <button className="relative flex w-44 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl shadow-gray-700/50 bg-gradient-to-bl from-green-700 to-emerald-500 mx-2 hover:animate-pulse
                         dark:bg-gradient-to-bl dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50
                         " >
-                            <a href="https://wa.me/5527988569001" target='_blank'>
+                            <a href="https://wa.me/5527996561579" target='_blank'>
                                 <p className="font-mono font-bold text-xl text-center text-slate-200 mt-4">
                                     Chama no <WhatsappLogo className="inline" size={32} />
                                 </p>
@@ -97,8 +90,6 @@ export function Main() {
                  ">
                     
                     <img className="
-                            
-
                             flex w-72 h-auto mt-4 z-0
                             xl:flex xl:w-[680px] xl:h-auto xl:m-1
                             lg:flex lg:w-[400px] lg:h-[400px] lg:m-12

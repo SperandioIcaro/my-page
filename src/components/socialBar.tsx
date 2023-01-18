@@ -13,7 +13,7 @@ export function SocialBar() {
                     <TwitterLogo className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
-                href="mailto:icaro.sperandio@gmail.com?subject=Contato front-end" target='_blank'>
+                href="mailto:sperandioicaro@gmail.com?subject=Contato front-end" target='_blank'>
                     <EnvelopeOpen className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
@@ -25,7 +25,7 @@ export function SocialBar() {
                     <InstagramLogo className="inline m-0 h-min w-min" size={38} />
             </a>
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
-                href="https://www.linkedin.com/in/icaro-sperandio/" target='_blank'>
+                href="https://www.linkedin.com/in/sperandioicaro/" target='_blank'>
                     <LinkedinLogo className="inline m-0 h-min w-min" size={38} />
             </a>
         </div>
