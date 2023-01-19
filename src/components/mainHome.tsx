@@ -46,7 +46,7 @@ export function Main() {
                     </h3>
 
                     <p className="
-                            font-inco text-xl text-left text-black w-80 m-4 -mb-4
+                            text-xl text-left text-black w-80 m-4 -mb-4
                             xl:m-1 xl:w-96 xl:text-2xl xl:mb-0
                             dark:text-white
                             ">
@@ -90,7 +90,7 @@ export function Main() {
                  ">
                     
                     <img className="
-                            flex w-72 h-auto mt-4 z-0
+                            flex w-72 h-auto mt-4 
                             xl:flex xl:w-[680px] xl:h-auto xl:m-1
                             lg:flex lg:w-[400px] lg:h-[400px] lg:m-12
                             md:w-72 md:h-72 

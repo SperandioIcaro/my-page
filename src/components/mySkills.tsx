@@ -19,9 +19,9 @@ import Php from "../assets/logos/php.png";
 export function MySkills() {
     return (
         <div className="
-            flex flex-col self-center justify-center cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-100 mt-10 w-11/12 h-auto ml-4 p-2 mb-0
-            xl:h-full xl:mt-20 xl:ml-28 xl:p-5 
-            lg:h-full lg:mt-20 lg:ml-16 lg:p-5
+            flex flex-col self-center justify-center cursor-default border-solid border-black border rounded-xl shadow-lg bg-zinc-100 mt-10 w-11/12 h-auto ml-4 p-2 mb-10
+            xl:h-full xl:mt-16 xl:ml-28 xl:p-5 
+            lg:h-full lg:mt-16 lg:ml-16 lg:p-5
             md:mt-10 md:ml-12 md:p-2
             ">
             <h1 className="

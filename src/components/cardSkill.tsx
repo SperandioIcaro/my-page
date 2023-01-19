@@ -20,12 +20,12 @@ export function CardSkill(props: Props) {
                 <img src={props.image} className="self-center h-auto w-24"/>
             </div>
             <div className='
-                lg:flex lg:w-8 h-auto rounded-xl bg-zinc-300 justify-center items-center lg:hover:w-72 lg:hover:ease-linear lg:hover:duration-200 lg:hover:text-black
+                lg:flex lg:w-8 h-auto rounded-xl bg-zinc-300 justify-center items-center lg:hover:w-72 lg:hover:ease-linear lg:hover:duration-200 lg:hover:text-black 
                 hidden
                 '>
 
                 <div className="
-                    lg:inline lg:w-72 flex-col p-2 text-transparent hover:overflow-auto lg:hover:text-black
+                    lg:inline lg:w-72 flex-col p-2 text-transparent hover:overflow-auto lg:hover:text-black scrollbar-thin hover:scrollbar-thin hover:scrollbar-thumb-blue-600 hover:scrollbar-track-blue-200 overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full
                     hidden
                     ">
                     <h3 className=" text-base text-left font-sans font-bold">

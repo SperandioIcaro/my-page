@@ -4,7 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  darkMode: ['class', '[data-mode="dark"]'],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: { 
@@ -12,7 +12,17 @@ module.exports = {
         Press: 'Rampart One', 
         inco: 'Inconsolata', 
       },
+      colors: {
+        blue: {
+          666: '#252A57'
+        },
+      },
+      backgroundImage: {
+        blitz: 'url(/src/assets/extras/bltzCry.gif)'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+],
 }

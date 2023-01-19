@@ -8,6 +8,7 @@ interface Data {
     html_url: string
     description: string
     language: []
+    size: number
 }
 
 export function CardProjectApi( ) {
@@ -31,16 +32,19 @@ export function CardProjectApi( ) {
     }, [])
 
     return (
-        <div className='flex flex-col items-center justify-center p-4'>
-            <h1 className='text-2xl font-bold text-gray-700'>
+        <div className='items-center justify-center p-6'>
+            
+            <h1 className='text-4xl text-center font-Press text-black mb-4'>
               Meus Projetos
             </h1>
-            
-            {loading && <p>Loading...</p>}
-            {error && <p>{error}</p>}
-            {posts.map(post => (
-                <CardApi key={post.id} {...post}/>
-            ))}
+            <div className='grid grid-flow-row gap-3 grid-cols-4 px-20'>
+                
+                {loading && <p className='text-xl text-center'>Loading...</p>}
+                {error && <p>{error}</p>}
+                {posts.map(post => (
+                    <CardApi key={post.id} {...post}/>
+                ))}
+            </div>        
         </div>
     )
 }
