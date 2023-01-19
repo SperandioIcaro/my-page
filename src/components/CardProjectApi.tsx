@@ -42,7 +42,7 @@ export function CardProjectApi( ) {
                 {loading && <p className='text-xl text-center'>Loading...</p>}
                 {error && <p>{error}</p>}
                 {posts.map(post => (
-                    <CardApi key={post.id} {...post}/>
+                    <CardApi stargazers_count={post.size} key={post.id} {...post}/>
                 ))}
             </div>        
         </div>
