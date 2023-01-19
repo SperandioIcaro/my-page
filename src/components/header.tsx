@@ -6,7 +6,7 @@ export function Header() {
     const [dark, setDark] = React.useState(!true);
     const darkMode = () => setDark(!dark);
     
-    function toggleTheme(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
+    function toggleTheme(e: any) {
         e.preventDefault();
         darkMode();
         if (dark) {

@@ -7,8 +7,8 @@ interface Data {
     name: string
     html_url: string
     description: string
-    language: []
     size: number
+    language: []
 }
 
 export function CardProjectApi( ) {

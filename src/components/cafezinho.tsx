@@ -12,7 +12,7 @@ export function Cafezinho() {
 
     function ModalPix() {
         return (
-            <div className="fixed left-1/3 top-1/3 bg-blitz bg-cover flex-col justify-center items-center w-1/3 h-1/2 p-6 border-solid border-blue-600 border-2 rounded-md shadow-xl">
+            <div className="fixed left-1/3 top-1/3 bg-blitz bg-cover flex-col justify-center items-center w-1/3 h-1/2 p-6 border-solid border-blue-600 border-2 rounded-md shadow-xl cursor-pointer">
                 <div className="flex flex-col items-center justify-center w-11/12">
                         <p className="text-base font-bold text-left bg-white/80 text-black"> Este site/portifólio esta sendo meu primeiro trabalho publicado e hospedado, foi um grande desafio, demorei mas finalizei!! </p>
                         <p className="text-base font-bold text-left bg-white/80 text-black"> Entrando em contato por minhas redes sociais, vou aceitar dicas, feedbacks até mesmo criticas! e caso queira colaborar com o famoso cafezinho do DEV, so utilizar o QRcode abaixo ou copiar a chave aleatória! </p>
@@ -43,7 +43,7 @@ export function Cafezinho() {
 
     return (
         <>
-            <div className="fixed flex-row w-14 h-14  right-2 top-24 hover:animate-pulse hover:cursor-help shadow-md">
+            <div className="fixed flex-row w-14 h-14 rounded-lg right-2 top-24 hover:animate-pulse hover:cursor-help shadow-md">
 
                 <button 
                 className="flex w-full h-full z-10 rounded-lg bg-blue-600 text-white items-center justify-center hover:cursor-help"
