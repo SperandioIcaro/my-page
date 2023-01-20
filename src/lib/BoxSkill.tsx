@@ -19,7 +19,7 @@ export default function BoxSkill(props: PropsSkill) {
                     {props.title}
                 </h3>
                 <div className="
-                    grid grid-flow-col gap-1 grid-rows-2 
+                    grid grid-flow-col gap-1 grid-cols-4 grid-rows-2 
                     xl:grid-rows xl:grid-cols xl:gap-1
                     lg:grid-rows lg:grid-cols lg:gap-1
                     md:grid-rows md:grid-cols md:gap-1 md:h-60

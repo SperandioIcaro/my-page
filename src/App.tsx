@@ -10,9 +10,9 @@ function App() {
   return(
     <ApolloProvider client={client}>
       <BrowserRouter>
-          <Cafezinho />
+        <Cafezinho />
         <Header />
-          <Router />
+        <Router />
         <SocialBar />
       </BrowserRouter>
     </ApolloProvider>

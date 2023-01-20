@@ -58,7 +58,7 @@ export default function CardApi(post: Data) {
 
   return (
     <a href={post.html_url} target='_blank' rel='noreferrer'>            
-        <div className='flex flex-col w-full h-44 justify-between p-4 my-4 bg-white rounded-lg shadow-lg'>
+        <div className='flex flex-col w-full h-44 justify-between p-4 my-4 bg-white rounded-lg shadow-lg border-solid border-blue-600 border'>
             <ul className="flex flex-col justify-between w-full h-full">
                 <li key={post.name} className="flex flex-col w-full h-full">
                     <div className="flex flex-row justify-between w-full h-1/3 items-start ">

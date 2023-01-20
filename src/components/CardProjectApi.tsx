@@ -37,7 +37,11 @@ export function CardProjectApi( ) {
             <h1 className='text-4xl text-center font-Press text-black mb-4'>
               Meus Projetos
             </h1>
-            <div className='grid grid-flow-row gap-3 grid-cols-4 px-20'>
+            <div className='
+                grid  gap-1 grid-cols-1 px-2
+                md:grid-cols-2 md:gap-2 md:px-10
+                xl:grid-cols-3 xl:gap-3 xl:px-20
+                '>
                 
                 {loading && <p className='text-xl text-center'>Loading...</p>}
                 {error && <p>{error}</p>}

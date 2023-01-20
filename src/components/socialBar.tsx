@@ -3,10 +3,10 @@ import { EnvelopeOpen, GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo } fr
 export function SocialBar() {
     return (
         <div className="
-                flex relative flex-row ml-16 mt-10 bottom-0 w-auto h-auto 
-                xl:fixed xl:flex-col xl:ml-8 xl:top-80 
-                lg:fixed lg:flex-col lg:ml-2 lg:top-60
-                md:fixed md:flex-col md:ml-0 md:top-36 
+                flex relative flex-row mt-16 bottom-1 w-full h-auto justify-evenly
+                xl:fixed xl:flex-col xl:ml-4 xl:top-10 xl:w-auto  
+                lg:fixed lg:flex-col lg:ml-2 lg:top-8 lg:w-auto 
+                md:fixed md:flex-col md:ml-0 md:top-6  md-w-auto
                 ">
             <a className="flex w-10 text-black relative m-1 hover:text-cyan-600 hover:animate-bounce"
                 href="https://twitter.com/SperandioIcaro" target='_blank'>

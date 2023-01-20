@@ -14,7 +14,7 @@ export function Main() {
                     flex flex-col-reverse w-full max-h-min items-center
                     xl:flex-row xl:mt-14 xl:justify-around xl:p-6 xl:-ml-4
                     lg:flex-row lg:mt-12 lg:justify-around lg:p-6 lg:-ml-4
-                    md:flex-row md:justify-around md:mt-10 
+                    md:flex-row md:justify-around md:mt-10
                     ">
         
                 <div className="
@@ -54,14 +54,15 @@ export function Main() {
                     </p>
 
                     <div className="
-                            max-w-min h-auto flex flex-row content-between items-center left-0
-                            xl:mr-0 xl:ml-4 xl:min-w-max xl:-mt-4
-                            lg:mr-0 lg:ml-4 lg:min-w-max
-                            md:mr-0 md:ml-4 md:min-w-max
+                            max-w-min h-auto flex flex-row justify-between items-center left-0 p-0
+                            xl:mr-0  xl:w-full xl:-mt-4
+                            lg:mr-0  lg:w-full
+                            md:mr-0  md:w-full
                         ">
 
                         <button className="
-                                    flex w-44 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl  shadow-gray-700/50 bg-gradient-to-br from-blue-700 to-blue-500 mx-2 hover:animate-pulse
+                                    flex w-48 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl  shadow-gray-700/50 bg-gradient-to-br from-blue-700 to-blue-500 mx-1 hover:animate-pulse
+                                    
                                     dark:bg-gradient-to-br dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50
                                 " >
                             <a href="https://cdn2.hubspot.net/hubfs/22201216/CV%20Icaro%20Sperandio.pdf" download="CV Icaro Sperandio" target="_blank" rel="noreferrer">
@@ -71,11 +72,13 @@ export function Main() {
                             </a>
                         </button>
 
-                        <button className="relative flex w-44 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl shadow-gray-700/50 bg-gradient-to-bl from-green-700 to-emerald-500 mx-2 hover:animate-pulse
-                        dark:bg-gradient-to-bl dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50
+                        <button className="
+                                flex w-48 h-14 border-2 border-solid border-white rounded-lg pb-16 mt-8 cursor-pointer justify-center shadow-xl shadow-gray-700/50 bg-gradient-to-bl from-green-700 to-emerald-500 mx-1 hover:animate-pulse
+                                md:-mr-44
+                                dark:bg-gradient-to-bl dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50
                         " >
                             <a href="https://wa.me/5527996561579" target='_blank'>
-                                <p className="font-mono font-bold text-xl text-center text-slate-200 mt-4">
+                                <p className="font-mono font-bold text-xl text-center text-slate-200 mt-4  ">
                                     Chama no <WhatsappLogo className="inline" size={32} />
                                 </p>
                             </a>
@@ -90,8 +93,8 @@ export function Main() {
                  ">
                     
                     <img className="
-                            flex w-72 h-auto mt-4 
-                            xl:flex xl:w-[680px] xl:h-auto xl:m-1
+                            flex w-80 h-auto mt-4 -mb-8 ml-4 
+                            xl:flex xl:w-[700px] xl:h-auto xl:m-1
                             lg:flex lg:w-[400px] lg:h-[400px] lg:m-12
                             md:w-72 md:h-72 
                             "

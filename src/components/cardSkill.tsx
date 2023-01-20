@@ -20,7 +20,7 @@ export function CardSkill(props: Props) {
                 <img src={props.image} className="self-center h-auto w-24"/>
             </div>
             <div className='
-                lg:flex lg:w-8 h-auto rounded-xl bg-zinc-300 justify-center items-center lg:hover:w-72 lg:hover:ease-linear lg:hover:duration-200 lg:hover:text-black 
+                lg:flex lg:w-8 h-auto rounded-xl bg-zinc-300 justify-center items-center lg:hover:w-72 lg:hover:ease-linear lg:hover:duration-200 lg:hover:text-black hover:z-20
                 hidden
                 '>
 
