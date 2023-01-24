@@ -46,7 +46,7 @@ export function Header() {
                     </Link>
                 </div>
                 
-                <div className="flex flex-row dark:text-white ml-1 right-0">
+                <div className="flex flex-row dark:text-white bg-zinc-200 right-0">
                     <div className="
                             flex 
                             xl:relative xl:flex xl:flex-row xl:w-auto xl:h-auto xl:items-center xl:content-center xl:justify-center xl:

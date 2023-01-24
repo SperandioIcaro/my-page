@@ -18,7 +18,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        blitz: 'url(/src/assets/extras/bltzCry.gif)'
+        blitz: 'url(/src/assets/extras/bltzCry.gif)',
+        mundo: 'url(/src/assets/extras/mundo.gif)'
       }
     },
   },

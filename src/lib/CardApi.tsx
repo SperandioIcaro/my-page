@@ -63,7 +63,7 @@ export default function CardApi(post: Data) {
                 <li key={post.name} className="flex flex-col w-full h-full">
                     <div className="flex flex-row justify-between w-full h-1/3 items-start ">
                         <div className="flex flex-row">
-                            <h2 className="text-xl font-bold">
+                            <h2 className="text-xl font-bold underline">
                                 {post.name}
                             </h2>
                            { Size() }
@@ -73,12 +73,12 @@ export default function CardApi(post: Data) {
                         
                         
                     </div>
-                    <div className="flex w-10/12 h-1/3 items-start">
+                    <div className="flex w-10/12 -mt-4 mb-2 h-1/3 items-start">
                         <span className="text-base" >
                             {post.description}
                         </span>
                     </div>
-                    <div className="flex flex-row-reverse w-full h-1/3 items-end " >
+                    <div className="flex flex-row-reverse w-full mt-2 h-1/3 items-end " >
                         <small className="flex text-sm bottom-0 right-0" >
                             {post.language} 
                             <PushPin size={14} />
