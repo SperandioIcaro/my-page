@@ -58,7 +58,7 @@ export function Cafezinho() {
                     <div className='h-16 w-full rounded-full bg-emerald-500 justify-center items-center flex hover:cursor-pointer'
                         onClick={showModal}>
                         <div className=" flex">
-                            <strong className="text-sm -ml-4  mr-4 w-80"> Se você gostou do meu trabalho,<br />considere me pagar um cafézinho. Obrigado! </strong>
+                            <strong className="text-sm -ml-4  mr-4 w-80"> Se você gostou do meu trabalho,<br />considere me pagar um cafézinho. Obrigado!</strong>
                         </div>
                     </div>
                 </div>
