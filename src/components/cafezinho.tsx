@@ -52,7 +52,7 @@ export function Cafezinho() {
             <div className="fixed w-16 hover:w-96 h-16 rounded-full right-4 top-24 shadow-md text-transparent hover:text-black hover:duration-700 animate-pulse hover:animate-none">
 
                 <div className="flex flex-row-reverse items-center  rounded-full shadow-xl bg-emerald-500 w-16 hover:w-96 h-16 p-0">
-                    <div className="fixed w-16 h-16 bg-blue-600 rounded-full items-center justify-center p-3 shadow-xl hover:animate-none">
+                    <div className="fixed w-16 h-16 bg-blue-600 rounded-full items-center justify-center p-3 shadow-xl hover:animate-none hover:fixed">
                         <Coffee className="flex text-white self-center h-auto" size={39} />
                     </div>
                     <div className='h-16 w-full rounded-full bg-emerald-500 justify-center items-center flex hover:cursor-pointer'

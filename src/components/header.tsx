@@ -21,7 +21,7 @@ export function Header() {
             <div 
                 className="
                     flex flex-row bg-zinc-200 items-center top-0 justify-between w-full h-16 shadow-lg
-                    xl:h-16 xl:px-16 xl:w-full
+                    xl:h-12 xl:px-16 xl:w-full
                     md:h-14 md:px-12
                     dark:bg-blue-900
                 ">

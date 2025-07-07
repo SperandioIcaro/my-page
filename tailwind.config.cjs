@@ -20,7 +20,10 @@ module.exports = {
       backgroundImage: {
         blitz: 'url(/src/assets/extras/bltzCry.gif)',
         mundo: 'url(/src/assets/extras/mundo.gif)'
-      }
+      },
+      screens: {
+        'xs': '480px', // telas pequenas como 1360x768 usam xs–md
+      },
     },
   },
   plugins: [

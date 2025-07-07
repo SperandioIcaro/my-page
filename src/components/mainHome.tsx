@@ -1,7 +1,6 @@
 import { LightbulbFilament, WhatsappLogo } from "phosphor-react";
 import LigthPhoto from "../assets/profilePhotos/lightMode.png"
 import DarkPhoto from "../assets/profilePhotos/darkMode.png"
-import gsap from "gsap";
 import React from "react";
 
 export function Main() {
@@ -12,14 +11,14 @@ export function Main() {
         
             <div className="
                     flex flex-col-reverse w-full max-h-min items-center
-                    xl:flex-row xl:mt-14 xl:justify-around xl:p-6 xl:-ml-4
+                    xl:flex-row xl:mt-0 xl:justify-around xl:p-0 xl:-ml-0
                     lg:flex-row lg:mt-12 lg:justify-around lg:p-6 lg:-ml-4
                     md:flex-row md:justify-around md:mt-10
                     ">
         
                 <div className="
                         flex flex-col w-11/12 -mt-10 z-10 mr-2
-                        xl:w-auto xl:h-full xl:m-8
+                        xl:w-auto xl:h-full xl:m-0
                         md:m-0 md:w-1/4
                         ">
 
@@ -65,7 +64,7 @@ export function Main() {
                                     
                                     dark:bg-gradient-to-br dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50
                                 " >
-                            <a href="https://cdn2.hubspot.net/hubfs/22201216/CV%20Icaro%20Sperandio.pdf" download="CV Icaro Sperandio" target="_blank" rel="noreferrer">
+                            <a href="https://files.catbox.moe/l67hzd.pdf" download="CV Icaro Sperandio" target="_blank" rel="noreferrer">
                                 <p className="font-mono font-bold text-xl text-center text-slate-200 dark:text-slate-700 mt-5">
                                     Baixar CV
                                 </p>
@@ -77,7 +76,7 @@ export function Main() {
                                 md:-mr-44
                                 dark:bg-gradient-to-bl dark:from-gray-700 dark:to-gray-500 dark:shadow--100/50
                         " >
-                            <a href="https://wa.me/5527996561579" target='_blank'>
+                            <a href="https://wa.me/5527988569001" target='_blank'>
                                 <p className="font-mono font-bold text-xl text-center text-slate-200 mt-4  ">
                                     Chama no <WhatsappLogo className="inline" size={32} />
                                 </p>
@@ -93,8 +92,8 @@ export function Main() {
                  ">
                     
                     <img className="
-                            flex w-80 h-auto mt-4 -mb-8 ml-4 
-                            xl:flex xl:w-[700px] xl:h-auto xl:m-1
+                            flex w-80 h-auto mt-2 -mb-8 ml-4 
+                            xl:flex xl:w-[600px] xl:h-auto xl:m-1
                             lg:flex lg:w-[400px] lg:h-[400px] lg:m-12
                             md:w-72 md:h-72 
                             "
